@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad CSS3.Agustín Arcos Reyes.</title>
+
+
+    <style>
+
+     
+        div:first-child {
+            display: flex;
+            background-size: cover;
+            background-image: url("lovecraft.jpg");
+            background-color: black;
+            border-style: solid;
+            border-width: 10px;
+            border-color: rgb(55, 36, 228);
+            box-shadow: rgb(36, 154, 209);
+            margin-left: auto;
+            margin-right: auto;
+            height: 400px;
+            width: 400px;
+            border-radius:35px 35px 35px 35px;
+            border-image-outset: 100px;
+            transform: translate(30, 20);
+        }
+    
+        div:first-child:active{
+            padding: 20px;
+            width: 100%;
+        }
+        div:first-child:hover {
+            padding: 20px;
+            width: 75%;
+        }
+    
+        p {
+            justify-content: center;
+            color: white;
+            background-color: black;
+            padding:0%;
+            margin-right: 5%;
+            margin-left: 5%;
+            justify-content: center;
+        }
+        #autor{
+            justify-content: center;
+            color: white;
+            background-color: black;
+            padding:0%;
+            margin-right: 90%;
+            margin-left: 5%;
+            justify-content: center;
+        }
+        p::first-letter {
+            font-family: Impact;
+        }
+    
+        p:hover {
+            column-count: 2;
+            column-width: 30%;
+        }
+    
+        p:active {
+            column-count: 3;
+        }
+    
+        p:last-of-type {
+            background-color: rgb(66, 66, 66);
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+    <div>
+        <p id="autor">H.P Lovecraft</p>
+    </div>
+    <div>
+        <p>
+            A veces me detengo en la orilla
+            Donde las penas vierten sus flujos,
+            Y las aguas turbulentas suspiran y se quejan De secretos que no se atreven a contar. Desde las simas profundas de valles sin nombres, Y desde colinas y llanuras que ningún mortal conoce, La mística marejada y el hosco oleaje Sugieren como taumaturgos malditos Un millar de horrores, henchidos por el temor Que ya contemplaron épocas hace tiempo olvidadas. ¡Oh vientos salados que tristemente barréis Las desnudas regiones abisales;
+            Oh pálidas olas salvajes, que recordáis El caos que la Tierra ha dejado tras de sí;
+            Una sola cosa os pido:
+            Guardad por siempre oculto vuestro antiguo saber!
+        </p>
+
+        <p>
+            Cada año, al resplandor melancólico del otoño, Los pájaros remontan el vuelo sobre un océano desierto, Trinando y gorjeando con prisa jubilosa Por llegar a una tierra que su memoria profunda conoce. Grandes jardines colgantes donde se abren flores De vivos colores, hileras de mangos de gusto delicioso Y arboledas que forman templos con ramas entrelazadas Sobre frescos senderos...todo esto les muestran sus vagos sueños.
+            Buscan en el mar vestigios de su antigua costa, Y la alta ciudad blanca, erizada de torres... Pero sólo las aguas vacías se extienden ante ellos, Así que al fin dan media vuelta una vez más. Y mientras tanto, hundidas en un abismo infestado de extraños pólipos, Las viejas torres añoran su canto perdido y recordado.
+        </p>
+
+    </div>
+</body>
+</html>
